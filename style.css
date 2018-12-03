@@ -1,4 +1,4 @@
-.grid-containter {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(6, 175px);
     grid-template-rows: repeat(6, 175px);
@@ -83,7 +83,7 @@ h3 {
 }
 
 @media only screen and (max-width: 1200px) {
-    .grid-containter {
+    .grid-container {
         grid-template-columns: repeat(3, 175px);
     }
 }
