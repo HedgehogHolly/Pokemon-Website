@@ -1,0 +1,86 @@
+.body{
+
+}
+
+.grid-containter {
+    display: grid;
+    grid-template-columns: repeat(6, 175px);
+    grid-template-rows: repeat(6, 175px);
+    grid-gap: 15px;
+    
+}
+
+.pokemon {
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.pokemon img {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 31px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    color: grey
+}
+
+.type-poison {
+    background-color: #A040A0;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.type-grass {
+    background-color: #78C850;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;    
+}
+
+.type-fire {
+    background-color: #F08030;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.type-flying {
+    background-color: #A890F0;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.type-water {
+    background-color: #6890F0;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.type-bug {
+    background-color: #A8A878;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
