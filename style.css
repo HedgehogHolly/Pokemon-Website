@@ -34,60 +34,39 @@ h3 {
     color: grey;
 }
 
-.type-poison {
+.type {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.poison {
     background-color: #A040A0;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
-.type-grass {
-    background-color: #78C850;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;    
+.grass {
+    background-color: #78C850; 
 }
 
-.type-fire {
+.fire {
     background-color: #F08030;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
-.type-flying {
+.flying {
     background-color: #A890F0;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
-.type-water {
+.water {
     background-color: #6890F0;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
-.type-bug {
+.bug {
     background-color: #A8A878;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
-.type-normal {
+.normal {
     background-color: lightgrey;
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    margin: 2px;
 }
 
 .type-electric {
