@@ -69,7 +69,7 @@ h3 {
     background-color: lightgrey;
 }
 
-.type-electric {
+.electric {
     background-color: #F7E724;
     height: 10px;
     width: 10px;
@@ -77,10 +77,18 @@ h3 {
     margin: 2px;
 }
 
-.type-ground {
+.ground {
     background-color: #955A31;
     height: 10px;
     width: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.fairy {
+    background-color: #F4BDC9;
+    height: 10px;
+    height: 10px;
     display: inline-block;
     margin: 2px;
 }
